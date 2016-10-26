@@ -1,0 +1,7 @@
+
+#compiled sources
+*.o
+*.pyc
+
+#temporal .swp from vim
+*.swp

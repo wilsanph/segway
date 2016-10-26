@@ -1,7 +1,8 @@
 
 #include <iostream>
-#include <errno.h>
 #include <wiringPiI2C.h>
+#include <thread>
+#include <chrono>
 
 using namespace std;
 
@@ -17,6 +18,14 @@ int main()
     u8 whoAmI = wiringPiI2CReadReg8( i2cHandle, 0x75 );
     
     cout << "Who am i: " << (u8) whoAmI << endl;
+
+    std::cout << "countdown: " << std::endl; 
+    for ( int q = 0; q < 10; q++ ) 
+    {
+        std::cout << q << std::endl;
+        std::this_thread::sleep_for( std::chrono::milliseconds( 100 ) );
+    }
+
 
     return 0;
 }

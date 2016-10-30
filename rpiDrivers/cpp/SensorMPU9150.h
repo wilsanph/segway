@@ -11,22 +11,22 @@ namespace mpu9150
     {
         enum _regMap
         {                        
-            REG_GYRO_CONFIG = 0x1b
-            REG_ACC_CONFIG  = 0x1c
-            REG_PWR1 = 0x6b
+            REG_GYRO_CONFIG = 0x1b,
+            REG_ACC_CONFIG  = 0x1c,
+            REG_PWR1 = 0x6b,
   
-            REG_ACC_X_HIGH = 0x3b
-            REG_ACC_X_LOW  = 0x3c
-            REG_ACC_Y_HIGH = 0x3d
-            REG_ACC_Y_LOW  = 0x3e
-            REG_ACC_Z_HIGH = 0x3f
-            REG_ACC_Z_LOW  = 0x40
+            REG_ACC_X_HIGH = 0x3b,
+            REG_ACC_X_LOW  = 0x3c,
+            REG_ACC_Y_HIGH = 0x3d,
+            REG_ACC_Y_LOW  = 0x3e,
+            REG_ACC_Z_HIGH = 0x3f,
+            REG_ACC_Z_LOW  = 0x40,
   
-            REG_GYRO_X_HIGH = 0x43
-            REG_GYRO_X_LOW  = 0x44
-            REG_GYRO_Y_HIGH = 0x45
-            REG_GYRO_Y_LOW  = 0x46
-            REG_GYRO_Z_HIGH = 0x47
+            REG_GYRO_X_HIGH = 0x43,
+            REG_GYRO_X_LOW  = 0x44,
+            REG_GYRO_Y_HIGH = 0x45,
+            REG_GYRO_Y_LOW  = 0x46,
+            REG_GYRO_Z_HIGH = 0x47,
             REG_GYRO_Z_LOW  = 0x48
         };
     }

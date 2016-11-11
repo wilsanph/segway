@@ -39,7 +39,7 @@ int main()
     std::cout << "finished sampling" << std::endl;    
     
     sensorLogger.dumpWholeDataToConsole();
-    sensorLogger.saveWholeDataToFile();
+//    sensorLogger.saveWholeDataToFile();
 
     return 0;
 }
